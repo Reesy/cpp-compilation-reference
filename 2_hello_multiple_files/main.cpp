@@ -2,6 +2,7 @@
 /* 
     Forward declaring the function written in the hello file.
     This would normally be done with header files which will be shown in the next example.
+    If this wasn't here then the main function would have no idea what 'printHelloWorld' is.
 */
 void printHelloWorld();
 

@@ -1,6 +1,6 @@
 
-#### Compile an application that makes use of a library
-	g++ main.cpp hello.cpp -o myapplication.exe
+#### Compile an application that uses multiple files
+	g++ main.cpp hello.cpp -o myapplication
 
 
 Used compiler flags:

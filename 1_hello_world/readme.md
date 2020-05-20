@@ -1,6 +1,6 @@
 
 #### Compile a single file application
-	g++ hello_world.cpp -o myapplication.exe
+	g++ hello_world.cpp -o myapplication
 
 
 Used compiler flags:
