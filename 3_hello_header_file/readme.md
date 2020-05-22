@@ -1,5 +1,5 @@
 
-#### Compile an application that uses multiple files with declarations in header files.
+#### Compile an application that uses multiple files with declarations in a header file.
 	g++ main.cpp hello.cpp -o myapplication
 
 
@@ -7,7 +7,7 @@ Used compiler flags:
 
 ```-o <file> ```  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Place the output into \<file>
 
-#### You do not need to include the header file in the above command as the #include <hello.hpp> just replaces '#include <hello.hpp>' for the contents of the file it points too.
+<i>You do not need to include the header file in the above command as the #include <hello.hpp> just replaces '#include <hello.hpp>' for the contents of the file it points too. </i>
 
 The following: 
 ```cpp 
