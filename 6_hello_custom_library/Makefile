@@ -7,12 +7,15 @@ badmath.o: src/badmath.cpp include/badmath.hpp
 			-I include
 
 badmath.a: badmath.o
-	ar rvs lib/badmath.a badmath.o
+	ar rvs lib/libbadmath.a badmath.o
 
 test: all
 	g++ test/test.cpp \
 		-I include \
-			lib/badmath.a -o testApp
+		-L ./lib -lbadmath \
+		-v \
+		-o testApp
+
 
 .PHONY: clean 
 clean:
