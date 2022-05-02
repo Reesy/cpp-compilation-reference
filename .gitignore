@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+
+8_hello_emscripten/hello_world.js
+8_hello_emscripten/hello_world.wasm
