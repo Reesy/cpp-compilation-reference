@@ -1,6 +1,8 @@
+## Compiling
+``` emmake make ```
 
 
-## Compiling 
+## Compiling manually
 
 ``` emcc hello_world.cpp -o hello_world.js ```
 
